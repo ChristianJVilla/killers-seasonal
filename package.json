@@ -1,0 +1,22 @@
+{
+  "name": "killers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass public/sass/style.scss public/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianJVilla/killers-seasonal.git"
+  },
+  "author": "christian villa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianJVilla/killers-seasonal/issues"
+  },
+  "homepage": "https://github.com/ChristianJVilla/killers-seasonal#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
