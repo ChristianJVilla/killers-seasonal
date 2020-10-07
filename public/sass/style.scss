@@ -39,3 +39,40 @@ a {
     cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
   }
 }
+
+.killer-title {
+  position: relative;
+  color: white;
+  top: 20rem;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.killer-opener {
+  position: relative;
+  display: inline-block;
+  color: white;
+  width: 30%;
+  top: 40rem;
+  left: 60%;
+  font-size: 2rem;
+}
+
+.killer-button {
+  position: relative;
+  top: 45rem;
+  left: 40%;
+  padding: 1rem;
+  color: white;
+  font-weight: 800;
+  border: hidden;
+  border-radius: 10%;
+  background: none;
+  cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
+
+  &:hover {
+    transform: scale(1.5);
+    color: rgb(124, 3, 3);
+    text-decoration: line-through;
+  }
+}
