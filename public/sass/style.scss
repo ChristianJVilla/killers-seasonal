@@ -17,62 +17,65 @@ html {
   object-fit: cover;
 }
 
-.nav-items {
-  color: white;
-  position: relative;
-  text-align: center;
-}
+// .nav-items {
+//   color: white;
+//   position: relative;
+//   text-align: center;
+// }
 
-.nav-item {
-  display: inline-block;
-  font-size: 2rem;
-  margin-top: 4rem;
-  padding: 0 8rem;
-}
+// .nav-item {
+//   display: inline-block;
+//   font-size: 2rem;
+//   margin-top: 4rem;
+//   padding: 0 15rem;
+// }
 
-a {
-  text-decoration: none;
-  color: white;
+// a {
+//   text-decoration: none;
+//   color: white;
 
-  &:hover {
-    color: rgb(124, 3, 3);
-    cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
+//   &:hover {
+//     color: rgb(124, 3, 3);
+//     cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
+//   }
+// }
+
+.nav {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &-item {
+    padding: 0 4rem;
+    font-size: 2rem;
   }
 }
 
-.killer-title {
-  position: relative;
+.nav-link {
+  text-decoration: none;
   color: white;
-  top: 20rem;
-  font-size: 6rem;
-  text-align: center;
-}
-
-.killer-opener {
-  position: relative;
-  display: inline-block;
-  color: white;
-  width: 30%;
-  top: 40rem;
-  left: 60%;
-  font-size: 2rem;
-}
-
-.killer-button {
-  position: relative;
-  top: 45rem;
-  left: 40%;
-  padding: 1rem;
-  color: white;
-  font-weight: 800;
-  border: hidden;
-  border-radius: 10%;
-  background: none;
-  cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
+  font-family: "Permanent Marker", cursive;
 
   &:hover {
-    transform: scale(1.5);
     color: rgb(124, 3, 3);
-    text-decoration: line-through;
+    cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto;
+  }
+}
+
+.killer-container {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 30%;
+}
+
+.killer-title {
+  color: white;
+  font-size: 8rem;
+  font-family: "Permanent Marker", cursive;
+
+  &::after {
+    color: #ad310b;
   }
 }

@@ -3,7 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/style.css" />
+
     <title>Killers</title>
   </head>
   <body>
@@ -13,26 +24,25 @@
         src="https://images.unsplash.com/photo-1484075300283-7c7c94fd155b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1188&q=80"
         alt="skull"
       />
-      <div class="nav">
-        <ol class="nav-items">
-          <a href="#">
-            <li class="nav-item"><a href="#">Meet a killer</a></li>
-          
-          <a href="#">
-            <li class="nav-item"><a href="#">About killers</a></li>
-          </a>
-          <a href="#">
-            <li class="nav-item"><a href="#">Contact</a></li>
-          </a>
-        </ol>
-      </div>
-      <div>
-        <h1 class="killer-title">The Killers Club</h1>
-        <p class="killer-opener">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About the Killers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">The Horror</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+
+      <div class="killer-container">
+        <h1 id="killer" class="killer-title">The Killers Club</h1>
+        <!-- <p class="killer-opener">
           Looking to learn about fictional serial killers and where they came
           from? Then welcome to the killers club!
         </p>
-        <button class="killer-button" type="button">Discover Killers</button>
+        <button class="killer-button" type="button">Discover Killers</button> -->
       </div>
     </div>
     <script src="./js/main.js"></script>
