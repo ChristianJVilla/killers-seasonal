@@ -35,10 +35,9 @@ html {
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 30%; }
+  top: 25%; }
 
 .killer-title {
-  color: white;
   font-size: 8rem;
   font-family: "Permanent Marker", cursive; }
   .killer-title::after {

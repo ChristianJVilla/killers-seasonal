@@ -1,3 +1,8 @@
+$text-color-white: white;
+$text-color-blood: #ad310b;
+$text-color-dark-blood: rgb(124, 3, 3);
+$font-family-pm-cursive: "Permanent Marker", cursive;
+
 *,
 *::after,
 *::before {
@@ -17,29 +22,6 @@ html {
   object-fit: cover;
 }
 
-// .nav-items {
-//   color: white;
-//   position: relative;
-//   text-align: center;
-// }
-
-// .nav-item {
-//   display: inline-block;
-//   font-size: 2rem;
-//   margin-top: 4rem;
-//   padding: 0 15rem;
-// }
-
-// a {
-//   text-decoration: none;
-//   color: white;
-
-//   &:hover {
-//     color: rgb(124, 3, 3);
-//     cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
-//   }
-// }
-
 .nav {
   position: absolute;
   top: 5%;
@@ -54,11 +36,11 @@ html {
 
 .nav-link {
   text-decoration: none;
-  color: white;
-  font-family: "Permanent Marker", cursive;
+  color: $text-color-white;
+  font-family: $font-family-pm-cursive;
 
   &:hover {
-    color: rgb(124, 3, 3);
+    color: $text-color-dark-blood;
     cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto;
   }
 }
@@ -67,15 +49,14 @@ html {
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 30%;
+  top: 25%;
 }
 
 .killer-title {
-  color: white;
   font-size: 8rem;
-  font-family: "Permanent Marker", cursive;
+  font-family: $font-family-pm-cursive;
 
   &::after {
-    color: #ad310b;
+    color: $text-color-blood;
   }
 }
