@@ -60,3 +60,35 @@ html {
     color: $text-color-blood;
   }
 }
+
+.btn-dark {
+  font-size: 2rem;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem 0.2rem;
+  background-color: rgba($color: #1d1c1c, $alpha: 1);
+  margin-top: 6rem;
+
+  &:hover {
+    transition: all 1s ease-in-out;
+    border-color: 0.5rem solid #000000;
+    box-shadow: 10px 5px 5px $text-color-dark-blood;
+    background-color: rgb(78, 1, 1);
+    font-family: $font-family-pm-cursive;
+    color: #000000;
+  }
+}
+
+@keyframes buttonFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
